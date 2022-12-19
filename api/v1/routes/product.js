@@ -17,5 +17,5 @@ router.post('/', AddProduct)
 //удаление товара по коду
 router.delete('/:id', DeleteProduct)
 
-
+//
 module.exports = router;
