@@ -6,7 +6,7 @@ module.exports.auth = (req, res, next) => {
       next();
     }
     else {
-      res.status(401).send({message: 'authorization required'})
+     return res.status(401).send({message: 'authorization required'})
     }
   })
 };
